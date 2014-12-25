@@ -7,7 +7,7 @@ end
 def max_2_sum (array)
 	large=0
 	largest=0
-	temp=0
+	temp=0 
 	array.each { |x| 
 		if large > largest 
 			tmp=large
